@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.S.S.H.S. Palode | ഔദ്യോഗിക വെബ്‌സൈറ്റ്</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0f4c81, #1b6ca8);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #082d4d;
+            display: flex;
+            justify-content: center;
+            padding: 0.8rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1.2rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #1b6ca8;
+            border-radius: 4px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        section h2 {
+            color: #0f4c81;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 1.2rem;
+            border-radius: 6px;
+            border-left: 4px solid #0f4c81;
+        }
+        .info-card h3 {
+            color: #0f4c81;
+            margin-bottom: 0.4rem;
+            font-size: 1.1rem;
+        }
+        /* Gallery Styles */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .gallery-item {
+            background: #e2e8f0;
+            height: 180px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748b;
+            font-weight: 600;
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* Map Styles */
+        .map-container {
+            margin-top: 1rem;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>N.S.S. High School, Palode</h1>
+        <p>പെരിങ്ങമ്മല പി.ഒ, പച്ച, തിരുവനന്തപുരം - 695563</p>
+    </header>
+
+    <nav>
+        <a href="#about">മുഖവുര</a>
+        <a href="#details">വിവരങ്ങൾ</a>
+        <a href="#gallery">ഫോട്ടോകൾ</a>
+        <a href="#contact">ലൊക്കേഷൻ & കോൺടാക്റ്റ്</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>സ്കൂളിനെക്കുറിച്ച്</h2>
+            <p>തിരുവനന്തപുരം ജില്ലയിലെ പാലോട് സ്ഥിതി ചെയ്യുന്ന പ്രമുഖമായ വിദ്യാലയങ്ങളിൽ ഒന്നാണ് <strong>എൻ.എസ്.എസ് ഹൈസ്കൂൾ, പാലോട്</strong>. നായർ സർവീസ് സൊസൈറ്റിയുടെ (NSS) കീഴിൽ 1957-ൽ സ്ഥാപിതമായ ഈ വിദ്യാലയം, ഈ പ്രദേശത്തെ വിദ്യാർത്ഥികൾക്ക് മികച്ച വിദ്യാഭ്യാസവും മൂല്യങ്ങളും പകർന്നുനൽകി വരുന്നു.</p>
+        </section>
+
+        <!-- Details Section -->
+        <section id="details">
+            <h2>പ്രധാന വിവരങ്ങൾ (Quick Facts)</h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3>സ്ഥാപിതമായ വർഷം</h3>
+                    <p>1957</p>
+                </div>
+                <div class="info-card">
+                    <h3>മാനേജ്മെന്റ്</h3>
+                    <p>നായർ സർവീസ് സൊസൈറ്റി (NSS)</p>
+                </div>
+                <div class="info-card">
+                    <h3>ക്ലാസുകൾ</h3>
+                    <p>5 മുതൽ 10 വരെ (Upper Primary & High School)</p>
+                </div>
+                <div class="info-card">
+                    <h3>സിലബസ്</h3>
+                    <p>കേരള സ്റ്റേറ്റ് സിലബസ് (State Board)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>ഫോട്ടോ ഗാലറി</h2>
+            <p>സ്കൂളിന്റെയും പരിസരത്തിന്റെയും വിവിധ ചിത്രങ്ങൾ ഇവിടെ ഉൾപ്പെടുത്താം:</p>
+            <div class="gallery-grid">
+                <!-- ഫോട്ടോകൾ മാറ്റാൻ img src മാറ്റുകയോ താഴെ ഉള്ളടക്കം മാറ്റുകയോ ചെയ്യാം -->
+                <div class="gallery-item">സ്കൂൾ മുൻവശം</div>
+                <div class="gallery-item">പ്രധാന ബ്ലോക്ക്</div>
+                <div class="gallery-item">കളിക്കളം</div>
+                <div class="gallery-item">സയൻസ് ലാബ്</div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section id="contact">
+            <h2>ലൊക്കേഷനും കോൺടാക്റ്റും</h2>
+            <p><strong>വിലാസം:</strong> N.S.S.H.S. Palode, Peringamala P.O, Pacha, Thiruvananthapuram, Kerala - 695563</p>
+            <p><strong>അടുത്തുള്ള പ്രധാന ലാൻഡ്മാർക്ക്:</strong> ഇഖ്ബാൽ കോളേജിന് സമീപം, പച്ച</p>
+            <p><strong>ഫോൺ നമ്പർ:</strong> 0472-2845015</p>
+            <p><strong>ഇമെയിൽ:</strong> nsspalode@gmail.com</p>
+
+            <!-- Google Map Embed -->
+            <div class="map-container">
+                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://maps.google.com/maps?q=N.S.S.High+School+Palode+Peringamala&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 N.S.S.H.S. Palode. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
